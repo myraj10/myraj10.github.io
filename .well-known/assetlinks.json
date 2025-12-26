@@ -3,7 +3,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "io.github.myraj10.visualscheduler",
+      "package_name": "io.github.myraj10.twa",
       "sha256_cert_fingerprints": [
         "0C:C8:FC:94:29:B0:99:57:EE:46:D3:BB:8A:A0:BD:51:D2:9D:D6:52:DD:9E:8E:63:48:54:52:10:61:86:CE:C4"
       ]
