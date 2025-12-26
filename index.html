@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-  <meta name="theme-color" content="#4CAF50">
+  <meta name="theme-color" content="#ADD8E6">
   <title>Visual Scheduler</title>
   <!-- PWA Manifest Link -->
   <link rel="manifest" href="manifest.json">
@@ -39,7 +39,12 @@
       flex-shrink: 0;
       z-index: 10;
     }
-    header { top: 0; }
+    header { top: 0;
+      /* This pushes the content down away from the status bar */
+      padding-top: env(safe-area-inset-top, 30px); 
+      /* This makes the bar tall enough so the buttons don't look cramped */
+      min-height: 90px; }
+
     footer { bottom: 0; }
     h1 {
       flex: 1;
@@ -834,4 +839,3 @@
   </script>
 </body>
 </html>
-
